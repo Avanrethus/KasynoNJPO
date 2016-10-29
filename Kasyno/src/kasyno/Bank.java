@@ -1,4 +1,4 @@
-package kasyno.Bank;
+package kasyno;
 
 public class Bank {
     private static Bank inst;
