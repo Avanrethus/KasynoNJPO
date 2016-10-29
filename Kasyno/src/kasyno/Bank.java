@@ -20,7 +20,7 @@ public class Bank {
         return status;
     }
     
-    public int bankStatusPlus (int plus){
+    public int BankStatusPlus (int plus){
         status = status + plus;
         return status;
     }
