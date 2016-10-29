@@ -4,7 +4,7 @@ public class Bank {
     private static Bank inst;
     int status = 2000;
     
-    public Bank(){
+    private Bank(){
         
     }
     
@@ -16,7 +16,6 @@ public class Bank {
     }
     
     public int BankStatus(){
-        System.out.println(status+"\n");
         return status;
     }
     
